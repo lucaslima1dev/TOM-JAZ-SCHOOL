@@ -1,0 +1,13 @@
+:root {
+  /* White Mode */
+  --background: #FFFFFF;
+
+  /* Peleta Original */
+
+  --primary-color: #ED4D1B;
+  --secondary-color: #FF9A3C;
+  --black: #000000;
+  --white: #ffffff;
+
+  --font-family: 'Roboto', sans-serif;
+}

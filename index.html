@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- import css -->
-  <link rel="stylesheet" href="css/extends.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Titulo -->
   <title>Tom's Jazz School</title>
-  <!-- font goole -->
+  <!-- font google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
@@ -18,101 +18,100 @@
 <!-- Corpo do site -->
   <header>
 <!-- Navbar -->
-    <img src="img/logo.svg" alt="Tom's Jazz School">
+<div class="container">
+    <img src="css/img/logo.svg" alt="Tom's Jazz School">
     <nav>
       <a href="#">Início</a>
       <a href="#">Cursos</a>
       <a href="#">Eventos</a>
-      <a href="#">Contato</a>
+      <a href="#footer">Contato</a>
     </nav>
-    <a href="#" class="button">Se inscreva</a>
+    <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+  </div>
+  
   </header>
 
   <!-- Pagina principal -->
   <main>
-    <section>
-      <img src="img/hero-img.svg" alt="Banda de jazz se apresentando">
+    <section class="hero-section">
+      <div class="container row-reverse">
+      <img src="css/img/hero-img.svg" alt="Banda de jazz se apresentando">
     <div>
-      <h1>Crie algo <span>impactante</span> com música</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?
+      <h1 class="mt-2 ">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+      <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?
         Laudantium ut quasi facere harum ratione animi alias officiis veniam suscipit
         delectus earum expedita voluptates saepe id, totam vero molestiae.</p>
         <a href="#" class="button">Comece agora</a>
+      </div>
     </div>
   </section>
-  <section>
 
 <!-- Cards -->
 <!-- Piano -->
+<section class="courses-section">
 <div class="cards">
-    <article>
-      <img src="img/piano.png" alt="Icone de tecla de piano">
+    <article class="card">  
+      <img src="css/img/piano.png" alt="Icone de tecla de piano">
       <strong>Piano popular</strong>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?
-        Laudantium ut quasi facere harum ratione animi alias officiis veniam suscipit
-        delectus earum expedita voluptates saepe id, totam vero molestiae.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,</p>
         <a href="">
-          <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
+          <img src="css/img/arrow-right.svg" alt="Ir para pagina do curso">
         </a>
     </article>
     <!-- clave de sol-->
-    <article>
-      <img src="img/piano.png" alt="Icone de clave de sol">
+    <article class="card">
+      <img src="css/img/piano.png" alt="Icone de clave de sol">
       <strong>Piano popular</strong>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?
-        Laudantium ut quasi facere harum ratione animi alias officiis veniam suscipit
-        delectus earum expedita voluptates saepe id, totam vero molestiae.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,</p>
         <a href="">
-          <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
+          <img src="css/img/arrow-right.svg" alt="Ir para pagina do curso">
         </a>
     </article>
     <!-- Sax -->
-    <article>
-      <img src="img/sax.png" alt="Icone de saxofone">
+    <article class="card">
+      <img src="css/img/sax.png" alt="Icone de saxofone">
       <strong>Sax alto</strong>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?
-        Laudantium ut quasi facere harum ratione animi alias officiis veniam suscipit
-        delectus earum expedita voluptates saepe id, totam vero molestiae.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,</p>
         <a href="">
-          <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
+          <img src="css/img/arrow-right.svg" alt="Ir para pagina do curso">
         </a>
     </article>
     <!-- Bateria -->
-    <article>
-      <img src="img/drums.png" alt="Icone de bateria">
+    <article class="card">
+      <img src="css/img/drums.png" alt="Icone de bateria">
       <strong>Bateria</strong>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?
-        Laudantium ut quasi facere harum ratione animi alias officiis veniam suscipit
-        delectus earum expedita voluptates saepe id, totam vero molestiae.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,</p>
         <a href="">
-          <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
+          <img src="css/img/arrow-right.svg" alt="Ir para pagina do curso">
         </a>
     </article>
   </div>
     <!-- Segundo titulo da pagina proncipal -->
-    <h2>E <span>varios</span> outros!</h2>
-    <a href="#" class="button">Conhecer curso</a>
+    <h2 class="text-center">E <span class="text-primary">varios</span> outros!</h2>
+    <a href="#" class="button mt-2 mx-auto">Conhecer curso</a>
   </section>
   </main>
 
   <!-- Footer do site -->
   <footer>
-    <div>
-      <img src="img/logo.svg" alt="Tom's jazz School">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, quos quo
-         voluptatibus, fugit sit praesentium suscipit ex deleniti, hic nemo a. Aut 
-         blanditiis quis illo quibusdam voluptatum velit eos itaque.</p>
+    <div class="container">
+    <div class="about-colunn">
+      <img src="css/img/logo.svg" alt="Tom's jazz School" class="mt-1 mb-1">
+      <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, quos quo
+         voluptatibus, fugit sit praesentium suscipit ex deleniti</p>
     </div>
-      <nav>
+      <nav class="mb-2">
         <a href="#">Início</a>
         <a href="#">Cursos</a>
         <a href="#">Eventos</a>
         <a href="#">Contato</a>
       </nav>
-      <form>
-        <label for="email">Receba materiais gratuitos no seu email</label>
-        <input type="text" name="email" id="email" placeholder="Digite o seu email">
+      <form class="newsletter-form">
+        <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+        <input type="text" name="email" id="email" class="mb-2" placeholder="Digite o seu email">
+        <button class="button mb-2">Quero receber</button>
       </form>
+    </div>
   </footer>
 </body>
 </html>
